@@ -1,3 +1,5 @@
+### Event-Driven Chat room using RPC.
+
 Server responsplities: 
     - recognise clients (clients ping the server Server.Ping)
     - assign them ports to run on  (Server.Recognise)
@@ -8,5 +10,6 @@ Client:
     - runs on that port 
     - recieve messages (Client.Recieve)
 
+### Connection Diagram: 
 
-[Connection Diagram](./RPC_connection_diagram.png)
+![Connection Diagram](./RPC_connection_diagram.png)
